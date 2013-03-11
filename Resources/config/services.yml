@@ -1,0 +1,7 @@
+parameters:
+#    ac_inst3_location_admin.example.class: AltCloud\Instance3LocationAdminBundle\Example
+
+services:
+#    ac_inst3_location_admin.example:
+#        class: %ac_inst3_location_admin.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

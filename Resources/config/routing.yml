@@ -1,0 +1,7 @@
+ACInst3LocationBundle_admin_location:
+    resource: "@ACInst3LocationAdminBundle/Resources/config/routing/location.yml"
+    prefix:   /admin/location
+
+ACInst3LocationBundle_admin_map:
+    resource: "@ACInst3LocationAdminBundle/Resources/config/routing/map.yml"
+    prefix:   /admin/map

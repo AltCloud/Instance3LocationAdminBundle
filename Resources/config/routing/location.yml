@@ -1,0 +1,30 @@
+admin_location:
+    pattern:  /
+    defaults: { _controller: "ACInst3LocationAdminBundle:LocationAdmin:index" }
+
+admin_location_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ACInst3LocationAdminBundle:LocationAdmin:show" }
+
+admin_location_new:
+    pattern:  /new
+    defaults: { _controller: "ACInst3LocationAdminBundle:LocationAdmin:new" }
+
+admin_location_create:
+    pattern:  /create
+    defaults: { _controller: "ACInst3LocationAdminBundle:LocationAdmin:create" }
+    requirements: { _method: post }
+
+admin_location_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ACInst3LocationAdminBundle:LocationAdmin:edit" }
+
+admin_location_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ACInst3LocationAdminBundle:LocationAdmin:update" }
+    requirements: { _method: post }
+
+admin_location_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ACInst3LocationAdminBundle:LocationAdmin:delete" }
+    requirements: { _method: post }

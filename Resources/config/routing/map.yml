@@ -1,0 +1,30 @@
+admin_map:
+    pattern:  /
+    defaults: { _controller: "ACInst3LocationAdminBundle:MapAdmin:index" }
+
+admin_map_show:
+    pattern:  /{id}/show
+    defaults: { _controller: "ACInst3LocationAdminBundle:MapAdmin:show" }
+
+admin_map_new:
+    pattern:  /new
+    defaults: { _controller: "ACInst3LocationAdminBundle:MapAdmin:new" }
+
+admin_map_create:
+    pattern:  /create
+    defaults: { _controller: "ACInst3LocationAdminBundle:MapAdmin:create" }
+    requirements: { _method: post }
+
+admin_map_edit:
+    pattern:  /{id}/edit
+    defaults: { _controller: "ACInst3LocationAdminBundle:MapAdmin:edit" }
+
+admin_map_update:
+    pattern:  /{id}/update
+    defaults: { _controller: "ACInst3LocationAdminBundle:MapAdmin:update" }
+    requirements: { _method: post }
+
+admin_map_delete:
+    pattern:  /{id}/delete
+    defaults: { _controller: "ACInst3LocationAdminBundle:MapAdmin:delete" }
+    requirements: { _method: post }
